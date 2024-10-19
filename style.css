@@ -119,9 +119,13 @@ section{
   font-size: xx-large;
 }
 
-#ser,#exp{
+#ser,#exp,#hl{
   border: #2e0089 2px solid;
   border-radius: 0%;
+}
+
+#highlights h2, #experience h2, #services h2{
+  color: #10012c;
 }
 
 #edu{
@@ -158,17 +162,29 @@ h3{
   background-color: white;
 }
 
+.list-group .list-group-item{
+  background-color: white;
+}
+
+.list-group .list-group-item:hover{
+  background-color: #2e0089;
+  color: #ffffff;
+}
+
+.list-group-item{
+  border: #2e0089 2px solid;
+}
 
 .main{
   margin-top: 75px;
 }
 
-#education, #projects{
+#education, #projects,#certificates{
   background-color: #ffffff;
   color: #1f0c46;
 }
 
-#about, #skills, #contact{
+#about, #skills, #contact, #hightlights{
   color: #ffffff;
   background-color: #1f0c46;
   height: auto;
@@ -301,8 +317,11 @@ address{
     .navbar-nav .nav-item {
       padding: 0 0.5rem;
     }
-    
-    
+
+    #profile_pic{
+      height: 500px;
+    }
+
   }
 
 .btn{
@@ -419,7 +438,6 @@ border-radius: 5%;
 
   @media screen and (max-width:370px){
    
-   
     .navbar .navbar-toggler{
         border: none;
         color: #ffffff;
@@ -438,7 +456,10 @@ border-radius: 5%;
         border: none;
        }
       
-      
+      #profile_pic{
+        height: 200px;
+      }
+
     #but{
         display: block;
         justify-content: center;
@@ -448,5 +469,11 @@ border-radius: 5%;
     #pro .card{
       width:100%;
       height: auto;
+    }
+  }
+
+  @media screen and (max-width:600px){
+    #profile_pic{
+      height: 200px;
     }
   }
