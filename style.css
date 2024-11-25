@@ -1,0 +1,638 @@
+body{
+  width: 100%;
+  margin: 0%;
+}
+.navbar-brand{
+  color: #ffffff;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+section{
+  height: auto;
+  width: 100%;
+}
+
+.navlogo{
+  color: #ffffff;
+  font-size:25px;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.head_img{
+  width: 100%;
+  height: 45%;
+}
+
+.hp{
+  text-decoration: none;
+}
+
+.navbar-brand:hover{
+  color: #ffffff;
+}
+
+.navbar {
+    background-color: #1F0C46;
+  }
+
+ .navbar .navbar-nav .nav-link{
+    color: #ffffff;
+    background-color: #1F0C46;
+    font-size:18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+  }
+
+  .navbar .navbar-nav .nav-pills .nav-link .active{
+    color: #ffffff;
+  }
+
+  .navbar .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+  }
+
+  .navbar-toggler:active{
+    border: none;
+  }
+
+#but a{
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+}
+
+.gh{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  border: none;
+  background-color: #1f0c46;
+  color: #ffffff;
+  border: #ffffff 2px solid;
+}
+ 
+.gh a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.gh:hover{
+  background-color: #2e0089;
+  color: #ffffff;
+}
+
+  #lt{
+    border: #ffffff 2px solid;
+    font-size:18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #lt a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #lt a:hover,#lt a:active{
+    background-color: #2e0089;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #about h2, #skills h2, #contact h2{
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    margin-left:  50px;
+    padding-top: 10px;
+    font-size: xx-large;
+  }
+  
+#services h2, #projects h2{
+  color: #1f0c46;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  margin-left: 50px;
+  font-size: xx-large;
+}
+
+#ser,#exp,#hl{
+  border: #2e0089 2px solid;
+  border-radius: 0%;
+}
+
+#highlights h2, #experience h2, #education h2{
+  color: #10012c;
+}
+
+#edu{
+  border: #2e0089 2px solid;
+  height: 150px;
+}
+
+#cer{
+  border:none;
+}
+
+#home{
+  background: url("imgs/tech\ girl\ background.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh;
+  position: relative;
+}
+
+.hero__section{
+  position: absolute;
+  top:55%;
+  left: 30%;
+  color: white;
+}
+
+.hero__section_title{
+  font-family: "Yanone Kaffeesatz", serif;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.hero__section_button{
+  font-family: "Yanone Kaffeesatz", serif;
+  text-align: center;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  height: 10%;
+  width: 40%;
+}
+
+.hero__section_button:hover{
+  font-family: "Yanone Kaffeesatz", serif;
+  text-align: center;
+  font-size:medium;
+  background-color: rgba(0, 0, 0, 0.889);
+  border: none;
+  padding: 10px;
+  height: 10%;
+  width: 40%;
+}
+
+.hero__section_button a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#edu:hover, #ser:hover,#exp:hover{
+  background-color: #2e0089;
+  color: #ffffff;
+}
+
+h3{
+  color: #1f0c46;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+#exp .card-body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#pro .card-footer{
+  border: none;
+  background-color: white;
+}
+
+.list-group .list-group-item{
+  background-color: white;
+}
+
+.list-group .list-group-item:hover{
+  background-color: #2e0089;
+  color: #ffffff;
+}
+
+.list-group-item{
+  border: #2e0089 2px solid;
+}
+
+.main{
+  margin-top: 75px;
+}
+
+#education, #projects,#certificates{
+  background-color: #ffffff;
+  color: #1f0c46;
+}
+
+#about, #skills, #contact, #hightlights{
+  color: #ffffff;
+  background-color: #1f0c46;
+  height: auto;
+  width: 100%;
+}
+
+textarea, input{
+  border:none;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#skills a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size:18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#skills a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#ab{
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #ffffff;
+  background-color: #1f0c46;
+}
+
+#send{
+  float: right;
+  background-color: #dcd7e0;
+  color: #1f0c46;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  font-family: "Courier Prime", monospace;
+}
+
+#send:hover{
+  float: right;
+  background-color: #9d9d9d;
+  color: #1f0c46;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+#con{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+.table td{
+  background-color: #1F0C46;
+  border: none;
+}
+
+.table{
+ margin-left: 25px;
+ margin-right: 25px;
+}
+
+#con span{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: large;
+}
+
+svg{
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+}
+
+#web .card{
+  height: 450px;
+}
+
+
+.social{
+  border: none;
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+
+#mydetail{
+  border: none;  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(255, 255, 255); 
+  background-color: #1f0c46; 
+}
+
+#sl{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.list-group-item{
+  background-color: #1F0C46;
+}
+
+#profile_pic{
+  height: 500px;
+}
+
+#cer{
+  cursor: pointer;
+}
+
+.modal .modal-header{
+  border: none;
+}
+
+address{
+  color: beige;
+  text-align: left;
+  font-size: larger;
+}
+
+.btn{
+    background-color: #1F0C46;
+    color: whitesmoke;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;   
+}
+
+#exp{
+  background: none;
+}
+
+.back{
+  background-color: #1f0c46;
+  color: #ffffff;
+  border: none;
+height: auto;
+border-radius: 5%;
+}
+
+.card-img-top{
+  border-radius: 0px;
+}
+
+#pro{
+  border:#2e0089 2px solid;
+  border-radius: 0%;
+  height: auto;
+}
+
+#web #pro{
+  border: #2e0089 2px solid;
+}
+
+#pro h4{
+ color:#361672;
+}
+
+#pro p{
+  font-size: 18px;
+  text-align: left;
+}
+
+#pro h5{
+  font-size: 20px;
+  text-align:left;
+}
+
+#pro button{
+  background-color: #1f0c46;
+  color: whitesmoke;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+#pro button:hover{
+  background-color: #2e0089;
+  color: whitesmoke;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+#pro .card{
+  width:50%;
+  height: auto;
+  border: #2e0089 2px solid;
+}
+
+#web .img-thumbnail{
+  width: 100%;
+  height: 65%;
+  border: none;
+}
+
+#web .card-body{
+  width:100%;
+  height:20px;
+}
+
+.btn:hover{
+  background-color: #2e0089;
+  color: whitesmoke;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.card-text{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: x-large;
+  text-align: justify;
+} 
+
+.card-title .fst-italic{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: large;
+} 
+
+ footer{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(255, 255, 255); 
+  color: #1f0c46;
+  height: 50px;
+  padding-top: 10px;
+ }
+
+#but, .pro__links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.uiux #pro{
+  border: #2e0089 2px solid;
+}
+
+#projects a,#services a{
+  text-decoration: none;
+  text-align: center;
+  color: #1f0c46;
+  font-size: larger;
+  font-weight: 400;
+}
+
+#projects a:hover,#services a:hover{
+  text-decoration: underline;
+}
+
+#projects #web .card-footer a{
+  padding: 5px;
+}
+
+#projects #web .card-footer button, .uiux #pro .card-footer button{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+#projects #web{
+  border: none;
+}
+
+.img-thumbnail{
+  border: none;
+}
+
+.bi{
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width:375px){
+   
+    .navbar .navbar-toggler{
+        border: none;
+        color: #ffffff;
+      }
+
+      .navbar .navbar-toggler-icon{
+        border: none;
+        color: #ffffff;
+      }
+  
+      .navbar .navbar-toggler:active{
+        border: none;
+      }
+
+      .navbar .navbar-toggler-icon .fa{
+        border: none;
+       }
+      
+      #profile_pic{
+        height: 200px;
+      }
+
+    #but, .pro__links{
+        display: block;
+        justify-content: center;
+        padding-top: 5px;
+    }
+
+    .hero__section{
+      position: absolute;
+      top:50%;
+      left: 10%;
+    }
+    
+    .hero__section_title{
+      font-family: "Yanone Kaffeesatz", serif;
+      text-align: center;
+      font-size: 15vw;
+    }    
+
+  }
+
+  @media screen and (max-width:600px){
+    #profile_pic{
+      height: 200px;
+    }
+
+    .hero__section{
+      position: absolute;
+      top:50%;
+      left: 10%;
+    }
+    
+    .hero__section_title{
+      font-family: "Yanone Kaffeesatz", serif;
+      text-align: center;
+      font-size: 10vw;
+    }
+    
+  }
+
+  @media screen and (max-width: 1024px) {
+    .navbar-nav .nav-item {
+      padding: 0 0.5rem;
+    }
+
+    #profile_pic{
+      height: 500px;
+    }
+    
+    .hero__section{
+      position: absolute;
+      top:60%;
+      left: 30%;
+    }
+    
+    .hero__section_title{
+      font-family: "Yanone Kaffeesatz", serif;
+      text-align: center;
+      font-size: 5vw;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px){
+    .hero__section{
+      position: absolute;
+      top:50%;
+      left: 25%;
+    }
+
+    
+    .hero__section_title{
+      font-family: "Yanone Kaffeesatz", serif;
+      text-align: center;
+      font-size: 5vw;
+    }
+    
+  }
+
+  @media screen and (max-width: 425px){
+    .hero__section{
+      position: absolute;
+      top:60%;
+      left: 5%;
+    }
+    
+    .hero__section_title{
+      font-family: "Yanone Kaffeesatz", serif;
+      text-align: center;
+      font-size: 10vw;
+    }
+
+
+  }
