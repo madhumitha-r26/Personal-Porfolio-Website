@@ -112,7 +112,7 @@ section{
     font-size: xx-large;
   }
   
-#services h2, #projects h2{
+#education h2, #projects h2{
   color: #1f0c46;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 400;
@@ -125,13 +125,14 @@ section{
   border-radius: 0%;
 }
 
-#highlights h2, #experience h2, #education h2{
+#highlights h2, #experience h2, #services h2{
   color: #10012c;
 }
 
 #edu{
   border: #2e0089 2px solid;
   height: 150px;
+  border-radius: 0%;
 }
 
 #cer{
@@ -223,7 +224,7 @@ h3{
   margin-top: 75px;
 }
 
-#education, #projects,#certificates{
+#services, #projects,#certificates{
   background-color: #ffffff;
   color: #1f0c46;
 }
@@ -242,6 +243,7 @@ textarea, input{
   padding: 10px;
   justify-content: space-between;
 }
+
 
 #skills a{
   color: #ffffff;
@@ -514,7 +516,7 @@ border-radius: 5%;
   height: auto;
 }
 
-#projects a,#services a{
+#projects a,#education a{
   text-decoration: none;
   text-align: center;
   color: #1f0c46;
@@ -522,7 +524,7 @@ border-radius: 5%;
   font-weight: 400;
 }
 
-#projects a:hover,#services a:hover{
+#projects a:hover,#education a:hover{
   text-decoration: underline;
 }
 
