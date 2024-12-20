@@ -204,6 +204,7 @@ section {
 #exp:hover {
   background-color: #2e0089;
   color: #ffffff;
+  cursor: auto;
 }
 
 h3 {
@@ -280,7 +281,7 @@ input {
 }
 
 #ab {
-  max-width: 800px;
+  max-width: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
